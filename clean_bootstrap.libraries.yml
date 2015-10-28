@@ -1,0 +1,10 @@
+base:
+    version: 1.x
+    css:
+        component:
+            css/bootstrap.min.css: {   }
+            css/clean-blog.css: {   }
+    js :
+            js/bootstrap.min.js: { scope:footer }
+            js/clean-blog.js: { scope:footer }
+            

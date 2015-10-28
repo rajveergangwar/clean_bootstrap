@@ -1,0 +1,24 @@
+name: clean_bootstrap
+description: A bootstrap theme for drupal 8
+type: theme
+core: 8.x
+libraries:
+    - clean_bootstrap/base
+regions:
+    header: Header
+    content: Content # required!
+    primary_menu: primary menu
+    sidebar_first: 'Sidebar first'
+    footer: 'Footer Full'
+    footerleft: 'Footer left'
+    footermiddle: 'Footer middle'
+    footerright: 'Footer right'
+stylesheets-remove:
+    - core/assets/vendor/normalize-css/normalize.css
+    - core/modules/system/css/system.module.css
+    - core/modules/system/css/system.theme.css
+    - core/modules/views/css/views.module.css
+    - core/modules/system/css/components/tablesort.module.css
+settings:
+  site_name: 'Clean Bootstrap'
+  site_slogan: 'Clean Bootstrap site slogan'
