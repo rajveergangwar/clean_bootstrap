@@ -1,1 +1,1 @@
-#drupal 8 bclean bootstrap theme
+#drupal 8 clean bootstrap theme
